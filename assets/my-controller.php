@@ -89,6 +89,9 @@ class Users {
 
     function index_productoffer_details($data) {
         $query = $this->xml_select->IndexPage->productoffer;
+       // print_r($query);
+        //exit();
+       $result=array();
         $query = $this->mysqli->query($query);
         if ($query->num_rows == 1) {
             while ($row = $query->fetch_assoc()) {
@@ -96,7 +99,29 @@ class Users {
             }
             return $result;
         }
+        else{
         return 0;
+        }
+    }
+     function index_productoffer_details2($data) {
+        $query = $this->xml_select->IndexPage->productoffer2;
+       //print_r($query);
+        //exit();
+       
+        $query = $this->mysqli->query($query);
+        //print_r($query);
+       //$result=array();
+        if ($query->num_rows >= 1) {
+            while ($row = $query->fetch_assoc()) {
+                $result[] = $row;
+            }
+            return $result;
+           // print_r($result);
+            //exit();
+        }
+        else{
+        return 0;
+        }
     }
 
     /*     * *************************************************************************************** */

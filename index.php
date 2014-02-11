@@ -132,13 +132,17 @@ color: #555;
                                 <!--<div class="borderimage">
                                     <img src="#" alt="">
                                 </div>-->
+                                 
                                 <a href="#"><span ><?php echo $productoffer['prod_name'] ?></span></a>
                                 <br/>  
                                 <div class="gallery-price2"><span><span class="WebRupee">Rs.</span></span><?php echo $productoffer['prod_offer_price'] ?>.00</div>
 
                                 <div class="gallery-price"><strike><span class="WebRupee">Rs.</span> <?php echo $productoffer['prod_org_price'] ?>.00</strike></div>
+                        
                                 <a href="product-details.php?id=<?php echo $productoffer['prod_random'] ?>"> <input type="image" src="images/view details.png" ></a>
+                                <a href="present-offer.php" style="float:right;margin-top: 18px; padding:4px;">View more>></a>
                             </div>
+                             
                         </div>
                     </div>
                 </div>

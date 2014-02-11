@@ -21,6 +21,7 @@
         <testjoinus>select * from tbl_subscribers where sub_email=</testjoinus>
         <testemail>select * from tbl_register where email=</testemail>
         <productoffer>SELECT * FROM `tbl_presentoffer` as tpo,`tbl_product` as tpr where tpo.prod_id_fk=tpr.prod_id_pk order by `preoff_id_pk` desc limit 1;</productoffer>
+        <productoffer2>SELECT * FROM `tbl_presentoffer` as tpo,`tbl_product` as tpr where tpo.prod_id_fk=tpr.prod_id_pk order by `preoff_id_pk`</productoffer2>
     </IndexPage>
     <!--index page code ends-->
     <categorypage>

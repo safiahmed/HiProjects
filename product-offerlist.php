@@ -8,7 +8,7 @@ $data = array();
     //$cat_id = $prod['cat_id_pk'];
     //print_r($cat_id);
 //}
-$cat_details = $product->index_subcategory_subname($cat_id_index);
+//$cat_details = $product->index_subcategory_subname($cat_id_index);
 //print_r($cat_details);
 $category_details = $product->index_category_name($data);
 ?>
@@ -19,37 +19,6 @@ $category_details = $product->index_category_name($data);
 
         <div class="block-content">
             <dl id="narrow-by-list">
-                <dt class="odd">Sub Category</dt>
-                <dd class="odd">
-
-                    <ol>
-
-                        <?php
-                        foreach ($cat_details as $prod) {
-                            ?>
-
-                            <li> <a href='#'><?php echo $prod['subcat_name']; ?></a> </li>
-                        <?php } ?>
-
-
-
-
-                    </ol>
-
-                </dd>
-                <dt class="odd">Price</dt>
-                <dd class="filter-price odd">
-
-                    <div class="imagin">
-                        <p>
-                            <label for="amount">Range:</label>
-                            <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
-                        </p>
-                        <div id="slider-range"></div>
-                    </div>
-
-                </dd>
-
                 <dt class="odd">Category</dt>
                 <dd class="odd">
                     <ol>
@@ -57,7 +26,7 @@ $category_details = $product->index_category_name($data);
 
                         <?php foreach ($category_details as $prod) { ?>
                             <li>
-                                <a href="category-view.php?id=<?php echo $prod['cat_random']; ?>" target="_parent"><?php echo $prod['cat_name']; ?></a>
+                                <a href="category-view.php?id=<?php echo $prod['cat_id_pk']; ?>" target="_parent"><?php echo $prod['cat_name']; ?></a>
                             </li> 
 
                         <?php } ?>		
@@ -65,41 +34,6 @@ $category_details = $product->index_category_name($data);
 
 
                 </dd>
-
-
-
-
-
-                <dt class="last even">Kit Type</dt>
-                <dd class="last even">
-
-                    <ol>
-                        <li>
-                            <a href="#">Do It Yourself Kit</a>
-                            (128)
-                        </li>
-                        <li>
-                            <a href="#">Project Kit</a>
-                            (128)
-                        </li>
-                        <li>
-                            <a href="#">Readymade Kit</a>
-                            (128)
-                        </li>
-                    </ol>
-
-                </dd>
-
-
-
-
-
-
-
-
-
-
-
 
             </dl>
 
