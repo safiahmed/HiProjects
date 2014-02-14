@@ -93,7 +93,8 @@ $(document).ready(function() {
     </ul>
 </div>
 
-<div id="mrova-img-control" style="margin-top: -84px; top: 50%;"></div>
+<?php include 'feedback.php'; ?>
+
 <div id="wrapper">
 <div id="page">
 <div id="Header_wrapper"> 

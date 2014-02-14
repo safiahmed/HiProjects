@@ -21,8 +21,8 @@
                     <link href="css/zoom_image.css" rel="stylesheet">
                         <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
                         <link href="assets/fancybox/source/jquery.fancybox.css" rel="stylesheet" />  
-					<script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
-                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>						
+<!--					<script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>						-->
                         <script type="text/javascript">
                             $(document).ready(function() {
                                 var pageTitle = document.title; //HTML page title
@@ -159,7 +159,8 @@
                                 </ul>
                             </div>
 
-                            <?php include'feedback.php '; ?>
+                           <?php include 'feedback.php'; ?>
+
                             <div id="wrapper">
 
                                 <?php include('header-dashboard.php'); ?>

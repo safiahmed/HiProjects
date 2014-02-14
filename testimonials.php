@@ -18,8 +18,8 @@ $test_details = $test->Testimonial_details($data);
             <link href="css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
                 <link rel="stylesheet" type="text/css" href="http://cdn.webrupee.com/font">
                 <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
-                <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
-                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>
+<!--                <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>-->
                     <script type="text/javascript">
                         $(document).ready(function() {
                             var pageTitle = document.title; //HTML page title
@@ -117,7 +117,8 @@ $test_details = $test->Testimonial_details($data);
                     </script>
                     </head>
                     <body>	
-                       <?php include'feedback.php '; ?>
+                   <?php include 'feedback.php'; ?>
+
                         <div id="share-wrapper">
                             <ul class="share-inner-wrp">
                                 <!-- Facebook -->

@@ -27,7 +27,7 @@ $size = sizeof($productoffer);
         
            
 
-            <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+      
             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
             <link rel="stylesheet" href="css/bootstrap.css" />
             <link rel="stylesheet" href="css/sinister.css">

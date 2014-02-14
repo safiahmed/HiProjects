@@ -48,8 +48,8 @@ if (isset($_SESSION['reg_id'])) {
             <link rel="stylesheet" href="css/header_fotter.css" />
             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
                 <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
-                <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
-                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>
+<!--                <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+                <link rel="stylesheet" href="css/mrova-feedback-form.css" type="text/css"/>-->
 
                 <style type="text/css">
                     body {
@@ -229,7 +229,8 @@ if (isset($_SESSION['reg_id'])) {
                         </ul>
                     </div>
 
-                    <?php include'feedback.php'; ?>
+                 <?php include 'feedback.php'; ?>
+
                     <div id="wrapper">
                         <?php include 'header.php'; ?>
                         <div id="page">

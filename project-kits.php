@@ -24,7 +24,7 @@ $cat_id_index=$prod['cat_id_fk'];
             <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
             <link href="assets/fancybox/source/jquery.fancybox.css" rel="stylesheet" />  
 
-            <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+           
             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
                 <link rel="stylesheet" href="css/bootstrap.css" />
                 <style>
@@ -35,7 +35,8 @@ $cat_id_index=$prod['cat_id_fk'];
                 <script type="text/javascript" src="Js/myscript.js"></script>
                 </head>
                 <body>	
-                    <?php include 'feedback.php'; ?>
+                   <?php include 'feedback.php'; ?>
+
                     <div id="share-wrapper">
                         <ul class="share-inner-wrp">
                             <!-- Facebook -->

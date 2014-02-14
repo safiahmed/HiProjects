@@ -56,7 +56,7 @@ $pro_detail1 = $product->index_subcategory_name($cat_id_index);
         
            
 
-            <script src="Js/mrova-feedback-form.js" type="text/javascript"></script>
+       
             <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
             <link rel="stylesheet" href="css/bootstrap.css" />
             <link rel="stylesheet" href="css/sinister.css">
@@ -72,7 +72,8 @@ $pro_detail1 = $product->index_subcategory_name($cat_id_index);
     </head>
     <!--ganesh-->
     <body>	
-        <?php include 'feedback.php'; ?>
+       <?php include 'feedback.php'; ?>
+
         <div id="share-wrapper">
             <ul class="share-inner-wrp">
                 <!-- Facebook -->
