@@ -132,7 +132,7 @@ $(document).ready(function(){
   $(function() {
     $( "#selectable" ).selectable();
   });
-
+});
   </script>
   <script>
 $(document).ready(function(){
